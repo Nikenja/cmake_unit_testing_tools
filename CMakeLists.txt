@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.25.0)
 
 project(unit_testing)
 
-get_filename_component(PROJECT_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../.." REALPATH)
+get_filename_component(PROJECT_ROOT_DIR "${CMAKE_CURRENT_SOURCE_DIR}/.." REALPATH)
 message(STATUS "Project root directory: ${PROJECT_ROOT_DIR}")
 
 enable_testing()
